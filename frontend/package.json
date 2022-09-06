@@ -9,8 +9,18 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@jujulego/aegis": "^1.0.0-rc.4",
+    "@jujulego/aegis-api": "^1.0.0-rc.3",
+    "@jujulego/aegis-react": "^1.0.0-rc.3",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.3",
+    "@mui/x-data-grid": "^5.17.1",
+    "axios": "^0.27.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "regenerator-runtime": "^0.13.9",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
