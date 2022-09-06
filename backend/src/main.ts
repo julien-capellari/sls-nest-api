@@ -1,14 +1,9 @@
-import { NestFactory } from '@nestjs/core';
 import 'dotenv/config';
 
-import { AppModule } from './app.module';
+import { bootstrap } from './bootstrap';
 
-async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
-  app.enableCors({
-    origin: 'http://localhost:3000'
-  });
-
+// Init
+async function init() {
+  const app = await bootstrap();
   await app.listen(4000);
 }
-bootstrap();

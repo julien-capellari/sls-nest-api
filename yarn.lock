@@ -3693,12 +3693,14 @@ __metadata:
     "@nestjs/platform-express": ^9.0.0
     "@nestjs/schematics": ^9.0.0
     "@nestjs/testing": ^9.0.0
+    "@types/aws-lambda": 8.10.102
     "@types/express": ^4.17.13
     "@types/jest": ^28.1.4
     "@types/node": ^18.0.3
     "@types/supertest": ^2.0.12
     "@typescript-eslint/eslint-plugin": ^5.30.5
     "@typescript-eslint/parser": ^5.30.5
+    "@vendia/serverless-express": ^4.10.1
     aws-xray-sdk-core: ^3.3.7
     dotenv: ^16.0.2
     eslint: ^8.19.0
@@ -3738,7 +3740,6 @@ __metadata:
     "@types/react-dom": ^18.0.6
     "@types/testing-library__jest-dom": 5.14.5
     axios: ^0.27.2
-    eslint-config-react-app: 7.0.1
     react: ^18.2.0
     react-dom: ^18.2.0
     react-scripts: 5.0.1
@@ -4207,6 +4208,13 @@ __metadata:
   version: 4.2.2
   resolution: "@types/aria-query@npm:4.2.2"
   checksum: 6f2ce11d91e2d665f3873258db19da752d91d85d3679eb5efcdf9c711d14492287e1e4eb52613b28e60375841a9e428594e745b68436c963d8bad4bf72188df3
+  languageName: node
+  linkType: hard
+
+"@types/aws-lambda@npm:8.10.102":
+  version: 8.10.102
+  resolution: "@types/aws-lambda@npm:8.10.102"
+  checksum: 71095334a700f24c88918890d2f31782583511d61c0fe4bfe1adcc17b314d4fcbccdb76de47507fd1a6ece1676a3b0ddecb8816808a541a2bca6fface1879b8d
   languageName: node
   linkType: hard
 
@@ -4807,6 +4815,13 @@ __metadata:
     "@typescript-eslint/types": 5.36.2
     eslint-visitor-keys: ^3.3.0
   checksum: 87ccdcfa5cdedaa3a1aac30d656969f4f5910b62bcaacdf80a514dbf0cbbd8e79b55f8e987eab34cc79ece8ce4b8c19d5caf8b0afb74e0b0d7ab39fb29aa8eba
+  languageName: node
+  linkType: hard
+
+"@vendia/serverless-express@npm:^4.10.1":
+  version: 4.10.1
+  resolution: "@vendia/serverless-express@npm:4.10.1"
+  checksum: 083c3931701530647797bc56784a2be27560a8649403ba308b7c7800336e0d85fe6fc73cfb7ceb87cc05294cbde1cbbe5ce982aa27d9cf4c3a219bdeae263bd3
   languageName: node
   linkType: hard
 
@@ -7566,7 +7581,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-react-app@npm:7.0.1, eslint-config-react-app@npm:^7.0.1":
+"eslint-config-react-app@npm:^7.0.1":
   version: 7.0.1
   resolution: "eslint-config-react-app@npm:7.0.1"
   dependencies:
